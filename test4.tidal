@@ -1,0 +1,14 @@
+-- d1 $ sound "bd [sd sd sd sd]"\
+-- d1 $ sound "[bd bd] [sd sd sd sd]"
+-- d1 $ sound "[bd bd bd] [sd sd]"
+-- d1 $ sound "[bd bd bd bd]"
+d1 $ sound "[[bd bd bd bd] [sd bd sd]cp*2]/2 cp/2" #crush "3" #speed "2"
+
+
+d2 $ sound "[[bd bd bd bd] [sd bd sd]cp*2]/2 cp/2"
+
+d2 $ sound "[[bd bd bd bd] [sd bd sd]cp*2]/2 cp/2" #crush "4" #speed "1"
+
+d2 $ rev(sound "[[bd bd bd bd] [sd bd sd]cp*2]/2 cp/2")
+
+hush
