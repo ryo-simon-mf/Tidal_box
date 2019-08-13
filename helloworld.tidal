@@ -1,4 +1,6 @@
 d1 $sound "bd cp bd cp "
+d2 $sound "sn db"
+
 
 
 hush
